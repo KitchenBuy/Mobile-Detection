@@ -3,9 +3,9 @@
   <head>
     <title>Device Detection</title>
   </head>
-  <body>
+  <body style="background-color: yellow">
     <div id="device"></div>
-    <script src="/node_modules/mobile-detect/mobile-detect.min.js"></script>
+    <script src="..\node_modules\mobile-detect\mobile-detect.min.js"></script>
     <script>
       var md = new MobileDetect(navigator.userAgent);
       if (md.mobile()) {
